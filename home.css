@@ -1,20 +1,25 @@
 
 #headerArea
 {
-  width: 900px;
-  height: 75px;
+  width: 1000px;
+  height: 100px;
   background:url("header.png") top center no-repeat;
   background-size: 300px;
   background-color: #f9f9f9;
+  color:rgba(134,2, 72, 1);
   
 }
 
 
 #sideArea
-{
-  width: 100px;
+{ display: inline;
+  width: 10px;
   float: left;
   padding: 25px;
+  line-height: 50px;
+  background-color: rgba(134,2, 72, 1);
+  min-height: 700px;
+  color: #fff;
 }
 
 #textArea
@@ -28,12 +33,12 @@
 
 #footerArea
 {
-  width: 900px;
+  width: 1000px;
   height: 40px;
-  background-color: #f9f9f9;
+  background-color: #E39A5F;
   background-size: 900px;
   position: relative;
-  margin-left: 450px;
+
 }
 
 .clear
@@ -44,4 +49,42 @@
 body
 {
   font-family: 'Lucida Grande', 'Lucida Sans Regular', 'Lucida Sans', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#logo
+{
+  position: relative;
+  width: 320px;
+  float: right;
+  margin-top: 5px;
+  margin-right: 50px;
+}
+
+#signin
+{
+  position:relative;
+  float: right;
+  margin: 5px;
+  margin-top: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border: #000;
+  border-radius: 10px;
+}
+
+#course
+{
+  position: relative;
+  float: left;
+  margin: 25px;
+  margin-bottom: 50px;
+}
+
+#copy
+{
+  position:relative;
+  float: left;
+  margin-left: 250px;
+  padding: 10px;
 }
